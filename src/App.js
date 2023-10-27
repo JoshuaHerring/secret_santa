@@ -13,6 +13,11 @@ class App extends Component {
     }
   }
 
+  componentDidMount() {
+    //Here you should make fetch requests
+    // This code runs imediatmly after the componemnt renders for the first time
+  }
+
   render() {
     return (
     <div className="App">
