@@ -2,6 +2,7 @@ import { Component } from 'react';
 import logo from './logo.svg';
 // import me from './me.jpg'
 import './App.css';
+import Testy from './components/test';
 
 class App extends Component { 
 
@@ -25,6 +26,7 @@ class App extends Component {
         <img src={logo} className="App-logo" alt="logo" />
         <p>{this.state.text}</p>
         <button onClick={() => {this.setState({text:'Wooohoooo'}, () =>{/*This is a callback function for set state*/console.log(this.state)})}}>Celebrate</button>
+        < Testy />
       </header>
     </div>
     )
