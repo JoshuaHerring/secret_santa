@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web app is a very simple pair maker. You can enter a bunch of names and it will give you everyone back except they are paired up in groups of 2.
 
-## Available Scripts
+I made this project in an attempt to laern the react library for javascript. I made the scaffoloding using the create react app build tool and then I played with it untill I was able to produce the result which is this very simple pair generator.
 
-In the project directory, you can run:
+React ended up being more difficult than I originally anticipated so this web app needs a lot more work but this is my mnp (Minimal Viable Product) or the simplest version of my app that I am comfortable sharing with others.
 
-### `npm start`
+{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Software Demo Video](http://youtube.link.goes.here)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Web Pages
 
-### `npm test`
+When you first load into the web app you will notice a clunky text box that you can enter a name into and a button you can click to submit the name. When you do this the name appears in a list below. You may repeat this process over and over to generate a list of lots of names. At the bottom you can click a button to turn the names into pairs of names.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When you click this button it takes you to the second veiw of the page which displays all of the names in a similar list to the original except it shows two names linked together the names wrapped in quotes and the linking text "is with" between the names.
 
-### `npm run build`
+# Development Environment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I started the project by runnning __create react app__ from npx which built the scafolding for my app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Then I used the __run react__ script that create react app made for me to run my app in my local server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+{Describe the programming language that you used and any libraries.}
+This web app was mainly built using __javascript__ and the __react library__.
 
-### `npm run eject`
+There is a simple __html__ file that the react populates with __jsx__ or (html in javascript).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Lastly I styled the app using some simple __css__ which you will find next to there coresponding js files.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Useful Websites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* [React Documentation](https://react.dev/)
+* [React Tutorial on youtube](https://www.youtube.com/watch?v=xhjqVW1ETZ8&t=3933s)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Future Work
 
-## Learn More
+* Style the page better (Bigger buttons, more organized lists, enhanced header and footer)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Imporved functionality (Make the button submit on enter key press, when a name is submited it will keep you focused on the input)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Implement Routes using react router
