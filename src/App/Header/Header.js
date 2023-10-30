@@ -1,11 +1,14 @@
 import { Component } from "react";
+import "./Header.css"
+import logo from  "../../images/pair-up.png"
 
 export default class Header extends Component {
 
     render() {
         return(
             <header>
-                <h1>Header</h1>
+                <img src={logo} alt="Secret Santa Logo"></img>
+                <h1>Pair Generator</h1>
             </header>
         )
     }

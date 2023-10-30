@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    color: white;
+    background-color: #CA3433;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+header > img {
+    height: stretch;
+}

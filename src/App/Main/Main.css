@@ -1,0 +1,12 @@
+main{
+    background-color: pink;
+    height: 65vh;
+    text-align: center;
+}
+
+main > button {
+    background-color: #CA3433;
+    color: white;
+    border: black 1px solid;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.name_holder {
+    height:40vh;
+    column-count: 3;
+    column-fill: auto;
+    text-align: left;
+}
+
+.name{
+    font-size: 1.2em;
+    color: #9a2827;
+}
+
+.name::before, .name::after{
+    content: '"';
+}
