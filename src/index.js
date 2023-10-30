@@ -4,9 +4,9 @@ import './normalize.css';
 import Header from './App/Header/Header';
 import Main from './App/Main/Main';
 import Footer from './App/Footer/Footer';
-
 import reportWebVitals from './reportWebVitals';
 
+// Renders the whold html body based off of the return of all of my class componenets
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

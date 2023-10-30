@@ -1,3 +1,6 @@
+/*Sets most of the different browser settings to the same
+value so webpage looks the same across browsers*/
+
 *{
   margin: 0;
 }
