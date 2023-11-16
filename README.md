@@ -8,7 +8,7 @@ React ended up being more difficult than I originally anticipated so this web ap
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/ZGt_nab4TXg)
 
 # Web Pages
 
@@ -22,7 +22,7 @@ I started the project by runnning __create react app__ from npx which built the 
 
 Then I used the __run react__ script that create react app made for me to run my app in my local server.
 
-{Describe the programming language that you used and any libraries.}
+## Libraries
 This web app was mainly built using __javascript__ and the __react library__.
 
 There is a simple __html__ file that the react populates with __jsx__ or (html in javascript).
@@ -40,4 +40,4 @@ Lastly I styled the app using some simple __css__ which you will find next to th
 
 * Imporved functionality (Make the button submit on enter key press, when a name is submited it will keep you focused on the input)
 
-* Implement Routes using react router
+* Implement multiple pages using react router
